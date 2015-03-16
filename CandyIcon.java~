@@ -1,0 +1,17 @@
+import becker.robots.icons.*;
+import java.awt.*;
+/**
+ * Auto Generated Java Class.
+ */
+public class CandyIcon extends Icon{
+  
+  /* ADD YOUR CODE HERE */
+  public CandyIcon(){
+  super();
+  }
+  protected void paintIcon(Graphics g)
+  {
+    Image variable = Toolkit.getDefaultToolkit().getImage("images/candy.png");
+    g.drawImage(variable, 25, 25, 50,50, null);
+  }
+}
